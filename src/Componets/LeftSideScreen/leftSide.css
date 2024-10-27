@@ -1,0 +1,56 @@
+.leftSide {
+  height: fit-content;
+  width: 20%;
+  background-color: #f8f9fa;
+  border-right: 1px solid #d1d1d1;
+}
+
+.getWeatherBtn {
+  width: 100%;
+  background-color: #2159ba;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.getWeatherBtn:hover {
+  background-color: #0c479a;
+}
+
+.leftSideWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 15px;
+  border: none;
+}
+
+.leftSideWrapper h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.leftSideWrapper button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.leftSideWrapper p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.cityButton.active {
+  background-color: #4472c4; /* Change background color when active */
+  color: #fff; /* Change text color when active */
+}
